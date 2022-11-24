@@ -13,13 +13,14 @@ import SouthEastPage from './pages/SouthEastPage';
 import SouthWestPage from './pages/SouthWestPage';
 
 const App = () => {
-  const teams = useSelector((store) => store);
-  const status = useSelector((store) => store.status);
+  const teams = useSelector((store) => store.teams.teams);
+  const status = useSelector((store) => store.teams.status);
   const dispatch = useDispatch();
-  console.log(teams, status)
 
   useEffect(() => {
-    dispatch(getTeams);
+    if (status === 'idle') {
+    dispatch(getTeams());
+  }
   }, []);
   const showTeams = () => {
     if (status === 'pending') {

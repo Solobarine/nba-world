@@ -4,7 +4,7 @@ const PacificTeams = () => {
 
   return (
     <div className="pacific">
-      <Link to="/home/pacific"><i class="fa-solid fa-arrow-right-long"></i></Link>
+      <Link to="/home/pacific"><i className="fa-solid fa-arrow-right-long"></i></Link>
       <h2 className="p-title">Pacific Division Teams</h2>
       </div>
   )

@@ -4,7 +4,7 @@ const NbaTeams = () => {
 
   return (
     <div className="all">
-      <i class="fa-solid fa-arrow-right-long"><Link to="/home/all"></Link></i>
+      <Link to="/home/all"><i className="fa-solid fa-arrow-right-long"></i></Link>
       <h2 className="all-teams">All NBA Teams</h2>
     </div>
   )

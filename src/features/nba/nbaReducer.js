@@ -28,9 +28,7 @@ const teamsSlice = createSlice({
     [getTeams.fulfilled]: (state, actions) => {
       const response = state
       response.status = 'success'
-      response.teams = actions.payload.map(item => {
-        if (true) return {...item}
-      })
+      response.teams = actions.payload
     },
     [getTeams.rejected]: (state) => {
       const response = state

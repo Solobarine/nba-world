@@ -4,11 +4,10 @@ const Header = () => {
 
   return (
     <div className="header">
-      <i class="fa-solid fa-chevron-left"><Link to="/"></Link></i>
-      <p className="route">add</p>
+      <Link to="/"><i className="fa-solid fa-chevron-left"></i></Link>
       <div className="icons">
-        <i class="fa-solid fa-microphone"></i>
-        <i class="fa-solid fa-gear"></i>
+        <i className="fa-solid fa-microphone"></i>
+        <i className="fa-solid fa-gear"></i>
       </div>
     </div>
   )
