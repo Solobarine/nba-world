@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Check if App renders correctly 1`] = `
+<div
+  className="App"
+>
+  <section
+    className="cell-info"
+  >
+    <div
+      className="network"
+    >
+      <i
+        className="fa-solid fa-ellipsis"
+      />
+      <p
+        className="carrier"
+      >
+        VIA
+      </p>
+      <i
+        className="fa-solid fa-wifi"
+      />
+    </div>
+    <p
+      className="date"
+    >
+      00:00:00
+    </p>
+    <div
+      className="icons"
+    >
+      <i
+        className="fa-brands fa-bluetooth"
+      />
+      <i
+        className="fa-solid fa-battery-full"
+      />
+    </div>
+  </section>
+  <div
+    className="home-section"
+  >
+    <div
+      className="nba-section"
+    >
+      <img
+        alt=""
+        className="logo"
+        src="#"
+      />
+      <h2
+        className="title"
+      >
+        NBA
+      </h2>
+    </div>
+    <div
+      className="category"
+    >
+      <div
+        className="atlantic"
+      >
+        <a
+          href="/home/atlantic"
+          onClick={[Function]}
+        >
+          <i
+            className="fa-solid fa-arrow-right-long"
+          />
+        </a>
+        <h2
+          className="c-title"
+        >
+          Atlantic Division Teams
+        </h2>
+      </div>
+      <div
+        className="central"
+      >
+        <a
+          href="/home/central"
+          onClick={[Function]}
+        >
+          <i
+            className="fa-solid fa-arrow-right-long"
+          />
+        </a>
+        <h2
+          className="c-title"
+        >
+          Central Division Teams
+        </h2>
+      </div>
+      <div
+        className="northwest"
+      >
+        <a
+          href="/home/northwest"
+          onClick={[Function]}
+        >
+          <i
+            className="fa-solid fa-arrow-right-long"
+          />
+        </a>
+        <h2
+          className="c-title"
+        >
+          NorthWest Division Teams
+        </h2>
+      </div>
+      <div
+        className="pacific"
+      >
+        <a
+          href="/home/pacific"
+          onClick={[Function]}
+        >
+          <i
+            className="fa-solid fa-arrow-right-long"
+          />
+        </a>
+        <h2
+          className="c-title"
+        >
+          Pacific Division Teams
+        </h2>
+      </div>
+      <div
+        className="southeast"
+      >
+        <a
+          href="/home/southeast"
+          onClick={[Function]}
+        >
+          <i
+            className="fa-solid fa-arrow-right-long"
+          />
+        </a>
+        <h2
+          className="c-title"
+        >
+          SouthEast Division Teams
+        </h2>
+      </div>
+      <div
+        className="southwest"
+      >
+        <a
+          href="/home/southwest"
+          onClick={[Function]}
+        >
+          <i
+            className="fa-solid fa-arrow-right-long"
+          />
+        </a>
+        <h2
+          className="c-title"
+        >
+          SouthWest Division Teams
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+`;
