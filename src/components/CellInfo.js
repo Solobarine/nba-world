@@ -5,12 +5,16 @@ const CellInfo = () => {
   const [time, setTime] = useState('00:00:00');
   return(
     <section className="cell-info">
-      <i className="fa-solid fa-ellipsis"></i>
-      <p className="carrier">{carrier}</p>
-      <i className="fa-solid fa-wifi"></i>
+      <div className="network">
+        <i className="fa-solid fa-ellipsis"></i>
+        <p className="carrier">{carrier}</p>
+        <i className="fa-solid fa-wifi"></i>
+      </div>
       <p className="date">{time}</p>
-      <i className="fa-brands fa-bluetooth"></i>
-      <i className="fa-solid fa-battery-full"></i>
+      <div className="icons">
+        <i className="fa-brands fa-bluetooth"></i>
+        <i className="fa-solid fa-battery-full"></i>
+      </div>
     </section>
   )
 };

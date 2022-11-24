@@ -11,6 +11,7 @@ import NorthWestPage from './pages/NorthWestPage';
 import PacificPage from './pages/PacificPage';
 import SouthEastPage from './pages/SouthEastPage';
 import SouthWestPage from './pages/SouthWestPage';
+import './App.css';
 
 const App = () => {
   const teams = useSelector((store) => store.teams.teams);

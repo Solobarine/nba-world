@@ -5,7 +5,7 @@ const CentralTeams = () => {
   return(
     <div className="central">
       <Link to="/home/central"><i className="fa-solid fa-arrow-right-long"></i></Link>
-      <h2 className="c-teams">Central Division Teams</h2>
+      <h2 className="c-title">Central Division Teams</h2>
     </div>
   )
 };

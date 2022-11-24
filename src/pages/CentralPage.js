@@ -4,11 +4,12 @@ import Header from '../components/Header';
 import Teams from '../components/Teams';
 
 const CentralPage = () => {
-  const store = useSelector((store) => store.teams.teams.data)
-  const centralTeams = store.filter((team) => team.division === 'Central')
+  const store = useSelector((store) => store.teams.teams.data);
+  const centralTeams = store.filter((team) => team.division === 'Central');
+  const route = '/home/central';
   return (
     <div className="centralPage">
-      <Header />
+      <Header route={route} />
       <CentralTeams />
       <Teams teams={centralTeams} />
     </div>
