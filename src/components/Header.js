@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-const Header = () => {
-
+const Header = (props) => { // eslint-disable-line
+  const route = props.route; // eslint-disable-line
   return (
     <div className="header">
-      <i class="fa-solid fa-chevron-left"><Link to="/"></Link></i>
-      <p className="route">add</p>
+      <Link to="/"><i className="fa-solid fa-chevron-left" /></Link>
+      <p className="route">{route}</p>
       <div className="icons">
-        <i class="fa-solid fa-microphone"></i>
-        <i class="fa-solid fa-gear"></i>
+        <i className="fa-solid fa-microphone" />
+        <i className="fa-solid fa-gear" />
       </div>
     </div>
-  )
+  );
 };
 
 export default Header;

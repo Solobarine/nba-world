@@ -1,11 +1,11 @@
-import NbaTeams from "../components/NbaTeams";
+import NbaTeams from '../components/NbaTeams';
 
-const AllTeamsPage = () => {
+const AllTeamsPage = () => { // eslint-disable-line
   return (
     <div className="allTeamsPage">
       <NbaTeams />
     </div>
-  )
+  );
 };
 
 export default AllTeamsPage;

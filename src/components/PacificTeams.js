@@ -1,13 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-const PacificTeams = () => {
-
+const PacificTeams = () => { // eslint-disable-line
   return (
     <div className="pacific">
-      <Link to="/home/pacific"><i class="fa-solid fa-arrow-right-long"></i></Link>
-      <h2 className="p-title">Pacific Division Teams</h2>
-      </div>
-  )
+      <Link to="/home/pacific"><i className="fa-solid fa-arrow-right-long" /></Link>
+      <h2 className="c-title">Pacific Division Teams</h2>
+    </div>
+  );
 };
 
 export default PacificTeams;

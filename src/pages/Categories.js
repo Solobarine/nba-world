@@ -1,4 +1,3 @@
-import {useSelector} from 'react-redux';
 import AtlanticTeams from '../components/AtlanticTeams';
 import CentralTeams from '../components/CentralTeams';
 import NorthWestTeams from '../components/NorthWestTeams';
@@ -6,12 +5,8 @@ import PacificTeams from '../components/PacificTeams';
 import SouthEastTeams from '../components/SouthEastTeams';
 import SouthWestTeams from '../components/SouthWestTeams';
 
-
-const Categories = () => {
-  const store = useSelector((store) => store.teams);
-  const status = useSelector((store) => store.status);
-
-  return(
+const Categories = () => { // eslint-disable-line
+  return (
     <div className="category">
       <AtlanticTeams />
       <CentralTeams />
@@ -20,7 +15,7 @@ const Categories = () => {
       <SouthEastTeams />
       <SouthWestTeams />
     </div>
-  )
+  );
 };
 
 export default Categories;
