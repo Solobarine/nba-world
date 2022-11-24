@@ -6,9 +6,7 @@ import store from '../features/configureStore';
 
 describe('App', () => {
   test('Check if App renders correctly', () => {
-    const app = renderer.create(<Provider store={store}>
-      <BrowserRouter><App /></BrowserRouter>
-      </Provider>).toJSON();
+    const app = renderer.create(<Provider store={store}><BrowserRouter><App /></BrowserRouter></Provider>).toJSON(); // eslint-disable-line
     expect(app).toMatchSnapshot();
   });
 });
