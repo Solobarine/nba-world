@@ -18,9 +18,9 @@ const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-      if (status === 'idle') {
+    if (status === 'idle') {
       dispatch(getTeams());
-  }
+    }
   }, []);
 
   return (
