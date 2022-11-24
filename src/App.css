@@ -50,7 +50,6 @@ body {
 
 .category > div {
   width: 49%;
-  height: 80px;
   background-color: #da4580;
   height: 220px;
   border: 1px solid #555;
@@ -106,7 +105,7 @@ body {
 
 .atlanticPage .atlantic {
   height: 80px;
-} 
+}
 
 .centralPage div .fa-arrow-right-long {
   display: none;
@@ -148,7 +147,6 @@ body {
 
 .pacificPage .pacific {
   height: 80px;
-
 }
 
 .southEastPage div .fa-arrow-right-long {
@@ -161,7 +159,7 @@ body {
   margin-top: 30px;
 }
 
-.southWestPage .southwest {
+.southEastPage .southeast {
   height: 80px;
 }
 

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
 import App from './App';
 import store from './features/configureStore';
-import {BrowserRouter} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +13,7 @@ root.render(
         <App />
       </Provider>
     </BrowserRouter>
-  </React.StrictMode>
+    </React.StrictMode> // eslint-disable-line
 );
 
 // If you want to start measuring performance in your app, pass a function

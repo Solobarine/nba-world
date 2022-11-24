@@ -1,6 +1,5 @@
 const Teams = (props) => {
-  const teams = props.teams
-  console.log(teams)
+  const teams = props.teams; /* eslint-disable */
   return (
     <div className="teams">
       {teams.map((team) => (
@@ -12,6 +11,6 @@ const Teams = (props) => {
       ))}
     </div>
   );
-}
+};
 
 export default Teams;

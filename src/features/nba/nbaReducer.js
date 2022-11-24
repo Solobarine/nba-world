@@ -1,12 +1,11 @@
-import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 const fetchTeams = async () => {
   const url = 'https://www.balldontlie.io/api/v1/teams';
   const data = await fetch(url);
   const teams = await data.json();
-  console.log(teams)
   return teams;
-}
+};
 
 export const getTeams = createAsyncThunk(
   'fetch/fetchTeams',
@@ -22,19 +21,19 @@ const teamsSlice = createSlice({
   reducers: {},
   extraReducers: {
     [getTeams.pending]: (state) => {
-      const response = state
-      response.status = 'loading'
+      const response = state;
+      response.status = 'loading';
     },
     [getTeams.fulfilled]: (state, actions) => {
-      const response = state
-      response.status = 'success'
-      response.teams = actions.payload
+      const response = state;
+      response.status = 'success';
+      response.teams = actions.payload;
     },
     [getTeams.rejected]: (state) => {
-      const response = state
-      response.status = 'rejected'
-    }
-  }
+      const response = state;
+      response.status = 'rejected';
+    },
+  },
 });
 
 export default teamsSlice.reducer;
