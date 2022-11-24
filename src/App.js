@@ -18,8 +18,8 @@ const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (status === 'idle') {
-    dispatch(getTeams());
+      if (status === 'idle') {
+      dispatch(getTeams());
   }
   }, []);
 

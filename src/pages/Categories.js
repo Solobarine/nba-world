@@ -1,4 +1,3 @@
-import { useSelector } from 'react-redux';
 import AtlanticTeams from '../components/AtlanticTeams';
 import CentralTeams from '../components/CentralTeams';
 import NorthWestTeams from '../components/NorthWestTeams';

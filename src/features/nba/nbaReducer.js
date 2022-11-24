@@ -1,4 +1,4 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 const fetchTeams = async () => {
   const url = 'https://www.balldontlie.io/api/v1/teams';

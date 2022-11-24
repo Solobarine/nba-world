@@ -3,7 +3,7 @@ import Categories from './Categories';
 import './css/Home.css';
 
 const Home = () => { // eslint-disable-line
-  return(
+  return (
     <div className="home-section">
       <Nba />
       <Categories />

@@ -1,5 +1,5 @@
 const Teams = (props) => {
-  const teams = props.teams; /* eslint-disable */
+  const teams = props.teams; // eslint-disable-line
   return (
     <div className="teams">
       {teams.map((team) => (

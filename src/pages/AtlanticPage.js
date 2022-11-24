@@ -1,4 +1,4 @@
-import {useSelector} from 'react-redux';
+import { useSelector } from 'react-redux';
 import AtlanticTeams from '../components/AtlanticTeams';
 import Header from '../components/Header';
 import Teams from '../components/Teams';
