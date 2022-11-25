@@ -21,7 +21,7 @@ const App = () => {
     if (status === 'idle') {
       dispatch(getTeams());
     }
-  }, []);
+  }, []); // eslint-disable-line
 
   return (
     <div className="App">
