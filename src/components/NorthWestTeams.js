@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const NorthWestTeams = () => { // eslint-disable-line
+const NorthWestTeams = () => { // eslint-disable-lie
   return (
     <div className="northwest">
       <Link to="/home/northwest"><i className="fa-solid fa-arrow-right-long" /></Link>
