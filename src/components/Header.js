@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const Header = (props) => { // eslint-disable-line
+const Header = (props) => {
   const route = props.route; // eslint-disable-line
   return (
     <div className="header">
