@@ -96,9 +96,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo
 
-- [Live Demo Link](https://https://bucolic-dodol-d772e9.netlify.app/)
+- [Live Demo Link](https://https://nbaworldsolobarine.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
