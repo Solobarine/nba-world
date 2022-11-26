@@ -205,6 +205,7 @@ If you like this project leave a star.
 We would like to thank Microverse for letting us be part of this amazing program.
 Thanks to Nelson Sakwa for his Design.
 And thanks to all the people who helped me to make this project possible.
+Checkout his amazing design in [here](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
