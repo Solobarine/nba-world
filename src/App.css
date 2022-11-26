@@ -43,6 +43,25 @@ body {
   text-align: center;
   padding: 45px;
 }
+.teams > div {
+  width: 90%;
+  display: flex;
+  background-color: #ce4177;
+  padding: 15px;
+  border: 1px solid #ff6964;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.teams > div p {
+  width: 33.33%;
+  text-align: center;
+  font-size: 22px;
+}
+
+.team:nth-child(odd) {
+  background-color: #ec470a;
+}
 
 .category {
   display: flex;
@@ -59,7 +78,7 @@ body {
 }
 
 .category > div:nth-child(4n+0),
-.category > div:nth-child(4n+1){
+.category > div:nth-child(4n+1) {
   background-color: #fa4580;
 }
 
@@ -82,26 +101,6 @@ body {
   justify-content: space-between;
   padding: 12px;
   background-color: #ec407a;
-}
-
-.teams > div {
-  width: 90%;
-  display: flex;
-  background-color: #ce4177;
-  padding: 15px;
-  border: 1px solid #ff6964;
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-
-.teams > div p {
-  width: 33.33%;
-  text-align: center;
-  font-size: 22px;
-}
-
-.team:nth-child(odd) {
-  background-color: #ec470a;
 }
 
 .atlanticPage div .fa-arrow-right-long {
