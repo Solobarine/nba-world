@@ -1,7 +1,5 @@
-import PropTypes from 'prop-types';
-
 const Teams = (props) => {
-  const teams = props.teams;
+  const teams = props.teams; // eslint-disable-line
   return (
     <div className="teams">
       {teams.map((team) => (
@@ -14,9 +12,5 @@ const Teams = (props) => {
     </div>
   );
 };
-
-Teams.propTypes = {
-  props: PropTypes.object.isRequired,
-}
 
 export default Teams;
