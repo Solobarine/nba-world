@@ -8,6 +8,8 @@
 body {
   width: 480px;
   overflow-x: hidden;
+  height: 100vh;
+  background-color: #fc5193;
 }
 
 .App {
@@ -56,6 +58,11 @@ body {
   border-radius: 10px;
 }
 
+.category > div:nth-child(4n+0),
+.category > div:nth-child(4n+1){
+  background-color: #fa4580;
+}
+
 .category > div i {
   font-size: 20px;
   text-align: right;
@@ -91,6 +98,10 @@ body {
   width: 33.33%;
   text-align: center;
   font-size: 22px;
+}
+
+.team:nth-child(odd) {
+  background-color: #ec470a;
 }
 
 .atlanticPage div .fa-arrow-right-long {
