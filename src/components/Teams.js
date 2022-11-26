@@ -1,5 +1,6 @@
+import PropTypes from 'prop-types';
+
 const Teams = (props) => {
-  /* eslint-disable */
   const teams = props.teams;
   return (
     <div className="teams">
@@ -13,5 +14,9 @@ const Teams = (props) => {
     </div>
   );
 };
+
+Teams.propTypes = {
+  props: PropTypes.object.isRequired,
+}
 
 export default Teams;
