@@ -9,7 +9,7 @@ const PacificPage = () => {
   const route = '/home/pacific';
 
   return (
-    <div className="pacificPage">
+    <div className="pacificPage team_view">
       <Header route={route} />
       <PacificTeams />
       <Teams teams={pacificTeams} />

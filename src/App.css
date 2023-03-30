@@ -6,12 +6,12 @@
 }
 
 body {
-  width: 480px;
   overflow-x: hidden;
 }
 
 .App {
   background-color: #fc5294;
+  min-height: 100vh;
 }
 
 .network {
@@ -36,20 +36,34 @@ body {
 }
 
 .nba-section {
+  display: flex;
   background-color: #fc5193;
-  height: 80px;
+  justify-content: center;
   text-align: center;
   padding: 45px;
+  gap: 20px;
+}
+
+.nba-section h2 {
+  font-size: 55px;
+  padding: 15px;
+}
+
+.nba-section img {
+  width: 40px;
 }
 
 .category {
-  display: flex;
-  width: 480px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-width: 200px;
+  max-width: 700px;
+  margin: auto;
+  padding: 10px;
+  padding-bottom: 60px;
 }
 
 .category > div {
-  width: 49%;
   background-color: #da4580;
   height: 220px;
   border: 1px solid #555;
@@ -67,7 +81,7 @@ body {
 .category > div .c-title {
   text-align: center;
   margin-top: 70px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .header {
@@ -78,101 +92,32 @@ body {
 }
 
 .teams > div {
-  width: 90%;
-  display: flex;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background-color: #ce4177;
   padding: 15px;
   border: 1px solid #ff6964;
-  margin-bottom: 10px;
-  margin-left: 10px;
+  margin-bottom: 15px;
 }
 
 .teams > div p {
-  width: 33.33%;
   text-align: center;
   font-size: 22px;
 }
 
-.atlanticPage div .fa-arrow-right-long {
+.team_view div .fa-arrow-right-long {
   display: none;
 }
 
-.atlanticPage div .c-title {
+.team_view div .c-title {
   font-size: 18px;
   text-align: center;
   margin-top: 30px;
 }
 
-.atlanticPage .atlantic {
+.team_view team{
   height: 80px;
-}
-
-.centralPage div .fa-arrow-right-long {
-  display: none;
-}
-
-.centralPage .central {
-  height: 80px;
-}
-
-.centralPage div .c-title {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.northWestPage div .fa-arrow-right-long {
-  display: none;
-}
-
-.northWestPage div .c-title {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.northWestPage .northwest {
-  height: 80px;
-}
-
-.pacificPage div .fa-arrow-right-long {
-  display: none;
-}
-
-.pacificPage div .c-title {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.pacificPage .pacific {
-  height: 80px;
-}
-
-.southEastPage div .fa-arrow-right-long {
-  display: none;
-}
-
-.southEastPage div .c-title {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.southEastPage .southeast {
-  height: 80px;
-}
-
-.southWestPage div .fa-arrow-right-long {
-  display: none;
-}
-
-.southWestPage div .c-title {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.southWestPage .southwest {
-  height: 80px;
+  align-items: center;
 }

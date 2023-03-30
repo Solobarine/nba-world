@@ -9,7 +9,7 @@ const CentralPage = () => {
   const route = '/home/central';
 
   return (
-    <div className="centralPage">
+    <div className="centralPage team_view">
       <Header route={route} />
       <CentralTeams />
       <Teams teams={centralTeams} />

@@ -9,7 +9,7 @@ const SouthWestPage = () => {
   const route = '/home/southwest';
 
   return (
-    <div className="southWestPage">
+    <div className="southWestPage team_view">
       <Header route={route} />
       <SouthWestTeams />
       <Teams teams={southWestTeams} />

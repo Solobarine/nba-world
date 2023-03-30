@@ -10,7 +10,7 @@ const AtlanticPage = () => {
   const route = '/home/atlantic';
 
   return (
-    <div className="atlanticPage">
+    <div className="atlanticPage team_view">
       <Header route={route} />
       <AtlanticTeams />
       <Teams teams={atlanticTeams} />
